@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Game2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/boy"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스크롤하여 선택"
+            android:layout_gravity="right"
+            android:id="@+id/switch1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/myBall1"
+            android:layout_width="44sp"
+            android:layout_height="44sp"
+            android:background="@drawable/ic_baseline_circle_green"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/myBall2"
+                android:layout_width="44sp"
+                android:layout_height="44sp"
+                android:background="@drawable/ic_baseline_circle_green"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/myBall3"
+                    android:layout_width="44sp"
+                    android:layout_height="44sp"
+                    android:background="@drawable/ic_baseline_circle_green"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/myBall4"
+                        android:layout_width="44sp"
+                        android:layout_height="44sp"
+                        android:background="@drawable/ic_baseline_circle_green"
+                        android:layout_margin="4dp"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:visibility="visible"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/myBall5"
+                            android:layout_width="44sp"
+                            android:layout_height="44sp"
+                            android:background="@drawable/ic_baseline_circle_green"
+                            android:layout_margin="4dp"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:visibility="visible"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/myBall6"
+                                android:layout_width="44sp"
+                                android:layout_height="44sp"
+                                android:background="@drawable/ic_baseline_circle_green"
+                                android:layout_margin="4dp"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:visibility="visible"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        <NumberPicker
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/numberPicker"/>
+
+        <ImageButton
+            android:id="@+id/btn_clear"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_delete"/>
+                        <ImageButton
+                            android:id="@+id/btn_add"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@android:drawable/ic_input_add"/>
+                    </LinearLayout>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src
+
+        
+
+</LinearLayout>
+
+
